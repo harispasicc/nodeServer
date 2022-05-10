@@ -1,0 +1,39 @@
+{
+  "name": "guided-project-node",
+  "version": "1.0.0",
+  "description": "My First NodeJS Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harispasicc/guided-project-node.git"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "Haris-Paragon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harispasicc/guided-project-node/issues"
+  },
+  "homepage": "https://github.com/harispasicc/guided-project-node#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^2.0.7",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.1",
+    "helmet": "^5.0.2"
+  }
+}
